@@ -41,7 +41,7 @@ class TarotModelTest(TestCase):
     def setUpTestData(cls):
         Tarot.objects.create(
             card_number=1, 
-            card_image='/images/tarot/1.jpeg',
+            card_image='R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==',
             explanation='오.. 농작물을 바라보고 사람이 서있어\n/images/emoticon/2\n나는 고백을 추천한다')
 
     def test_card_number_label(self):
