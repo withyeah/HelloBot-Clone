@@ -13,4 +13,4 @@ class Tarot(models.Model):
     explanation = models.TextField()
 
     def __str__(self):
-        return self.card_number
+        return f'{self.card_number}'
